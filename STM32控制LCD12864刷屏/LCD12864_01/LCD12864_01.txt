@@ -1,0 +1,59 @@
+Configuration	LCD12864_01
+STM32CubeMX 	4.22.0
+Date	08/03/2017
+MCU	STM32F103ZETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PF0	GPIO_Output	LCD12864_CS
+11	PF1	GPIO_Output	LCD12864_RSET
+12	PF2	GPIO_Output	LCD12864_RS
+13	PF3	GPIO_Output	LCD12864_RW
+14	PF4	GPIO_Output	LCD12864_RD
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+26	PC0	GPIO_Output	D0
+27	PC1	GPIO_Output	D1
+28	PC2	GPIO_Output	D2
+29	PC3	GPIO_Output	D3
+44	PC4	GPIO_Output	D4
+45	PC5	GPIO_Output	D5
+96	PC6	GPIO_Output	D6
+97	PC7	GPIO_Output	D7
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : LCD12864_01
+Project Folder : E:\STM32F103ZET6\LCD12864_01
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
