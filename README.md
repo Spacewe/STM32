@@ -13,6 +13,5 @@
 
 ##  STM32CubeMx
 
-
-
+注释为STM32CubeMx的都是用STM32CubeMx和keil5实现的相关功能，目录下为STM32CubeMx工程，点击.ioc文件即可运行；keil工程为压缩包格式。
 
