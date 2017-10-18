@@ -26,5 +26,5 @@
 
 将STM32与esp8266通过usart2的引脚连接，使用电脑通过STM32配置esp8266,实现与TCP server相互发送数据。
 工作流程如下图：
-![2=](http://img.blog.csdn.net/20171018154031313?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VwZXJjZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![图像 2.png](http://upload-images.jianshu.io/upload_images/1760243-0d7bc465dd5a2ab9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 意义：实现了STM32的联网，即STM32的数据可以上传到网上，通过网络也可以控制STM32。
