@@ -39,3 +39,5 @@
 ![](http://img.blog.csdn.net/20171021214122882?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VwZXJjZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 具体介绍见[:](http://blog.csdn.net/superce/article/details/78306724)
+解决的主要问题：
+  在单一程序中如何解决持续事件和突发（中断）事件的冲突问题。
