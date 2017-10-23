@@ -28,3 +28,6 @@
 工作流程如下图：
 ![图像 2.png](http://upload-images.jianshu.io/upload_images/1760243-0d7bc465dd5a2ab9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 意义：实现了STM32的联网，即STM32的数据可以上传到网上，通过网络也可以控制STM32。
+
+###### STM32实现自动联网
+[STM32上电发送指令到esp8266实现配置联网](https://github.com/Spacewe/STM32/tree/master/%E9%80%9A%E8%BF%87STM32%E9%85%8D%E7%BD%AEesp8266%EF%BC%88STM32%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90%EF%BC%89)
