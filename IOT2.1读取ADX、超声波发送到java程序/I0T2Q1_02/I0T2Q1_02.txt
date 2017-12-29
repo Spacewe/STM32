@@ -1,0 +1,62 @@
+Configuration	I0T2Q1_02
+STM32CubeMX 	4.22.0
+Date	12/22/2017
+MCU	STM32F103ZETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+4	PE5	GPIO_Output	
+5	PE6	GPIO_Input	
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+26	PC0	GPIO_Output	
+36	PA2	USART2_TX	
+37	PA3	USART2_RX	
+69	PB10	I2C2_SCL	
+70	PB11	I2C2_SDA	
+101	PA9	USART1_TX	
+102	PA10	USART1_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : I0T2Q1_02
+Project Folder : E:\STM32F103ZET6\I0T2Q1_02
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
